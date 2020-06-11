@@ -11,5 +11,5 @@ suite = unittest.TestLoader().discover("script", "test*.py")
 report_file = "{}-report.html". format(time.strftime("%Y%m%d%H%M%S"))
 
 # 使用beautiful批量
-BeautifulReport(suite).report(filename=report_file, description="TpshopAPI", report_dir="./report/ihrm.html")
+BeautifulReport(suite).report(filename=report_file, description="TpshopAPI", report_dir="./report/report.html")
 
