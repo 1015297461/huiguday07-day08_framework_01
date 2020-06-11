@@ -13,5 +13,5 @@ suite = unittest.TestLoader().discover("script", "test*.py")
 
 # 使用beautiful批量
 file = "report.html"
-BeautifulReport(suite).report(filename=file, description="TpshopAPI", report_dir="./report")
+BeautifulReport(suite).report(filename=file, description="TpshopAPI", report_dir="report")
 
